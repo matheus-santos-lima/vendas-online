@@ -39,8 +39,8 @@ describe('SendgridService', () => {
           {
             to: [
               {
-                name: 'Cliente',
-                email: 'cliente123@gmail.com',
+                name: 'Matheus',
+                email: 'matheuspolaka81@gmail.com',
               },
             ],
           },
@@ -48,11 +48,11 @@ describe('SendgridService', () => {
 
         from: {
           email: 'matheuspolaka123@outlook.com',
-          name: 'Matheus',
+          name: 'Contato | TRACON',
         },
         reply_to: {
-          email: 'suporte123@outlook.com',
-          name: 'Suporte',
+          email: 'suportetracon123@outlook.com',
+          name: 'Suporte | TRACON',
         },
 
         subject: 'Sua fatura chegou!',

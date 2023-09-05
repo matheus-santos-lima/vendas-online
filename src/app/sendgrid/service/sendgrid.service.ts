@@ -11,7 +11,7 @@ export class SendgridService {
         const url = 'https://api.sendgrid.com/v3/mail/send';
         const config = {
             headers: {
-                Authorization: 'Bearer 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',
+                Authorization: 'Bearer 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',
             },
         };
 
