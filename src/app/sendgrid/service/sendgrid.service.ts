@@ -1,6 +1,6 @@
 import { HttpService } from '@nestjs/axios';
 import { HttpStatus, Injectable } from '@nestjs/common';
-import { SendEmailInterface } from './interface/send-email-interface';
+import { SendEmailInterface } from '../interface/send-email-interface';
 import { lastValueFrom } from 'rxjs';
 
 @Injectable()

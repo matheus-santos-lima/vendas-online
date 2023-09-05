@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { SendgridService } from './sendgrid.service';
 import { HttpService } from '@nestjs/axios';
-import { SendEmailInterface } from './interface/send-email-interface';
+import { SendEmailInterface } from '../interface/send-email-interface';
 import { of } from 'rxjs';
 
 
