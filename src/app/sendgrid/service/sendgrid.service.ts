@@ -5,13 +5,16 @@ import { lastValueFrom } from 'rxjs';
 
 @Injectable()
 export class SendgridService {
+ private readonly SENDGRID_API_URL = process.env.SENDGRID_API_URL;
+ private readonly SENDGRID_API_KEY = process.env.SENDGRID_API_URL;
+
     constructor(private readonly httpService: HttpService) { }
 
     async sendEmail(data: SendEmailInterface): Promise<boolean> {
-        const url = 'https://api.sendgrid.com/v3/mail/send';
+        const url = `${this.SENDGRID_API_URL}/mail/send`;
         const config = {
             headers: {
-                Authorization: 'Bearer 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',
+                Authorization: `Bearer ${this.SENDGRID_API_KEY}`,
             },
         };
 

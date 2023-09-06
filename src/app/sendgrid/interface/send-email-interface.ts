@@ -42,8 +42,8 @@ interface Content {
  
 export interface SendEmailInterface {
    personalizations: personalization[];
-   from: From2;
-   reply_to: ReplyTo;
+   from: To;
+   reply_to: To;
    subject: string;
    content: Content[];
 }
