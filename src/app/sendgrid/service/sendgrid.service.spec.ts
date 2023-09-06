@@ -51,7 +51,7 @@ describe('SendgridService', () => {
           name: 'Contato | TRACON',
         },
         reply_to: {
-          email: 'suportetracon123@outlook.com',
+          email: 'suporteheadcore123@outlook.com',
           name: 'Suporte | TRACON',
         },
 
